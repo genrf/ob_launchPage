@@ -1,6 +1,3 @@
-ob_launchPage
-=============
+# Launch page de OpenBlog
 
-Launch page de OpenBlog
-
-Falta añadir el "Contact" y arreglar un pequeño bug de los enlaces.
+  Falta añadir el "Contact" y arreglar un pequeño bug de los enlaces.
