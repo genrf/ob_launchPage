@@ -3,6 +3,10 @@ body{
    font-family: proxima;
    height: 2000px;
 }
+#myCarousel img{
+   margin:auto;
+}
+
 .container{
    position: absolute;
    top: 25%;
@@ -12,13 +16,13 @@ body{
    padding: 20px;
 
 }
+
 h1{
    font-family: proxima semibold;
    color: white;
 }
-.lead {
-   color: white;
-}
+
+
 h2{
    font-family: proxima semibold;
    
@@ -101,7 +105,9 @@ div.autor{
    color:#DF4931;
 }
 
-
+.lead {
+   color: white;
+}
 /* RETOQUES MOVIL */
 
 @media (max-width: 767px) {
