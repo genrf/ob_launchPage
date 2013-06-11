@@ -1,10 +1,10 @@
 body{
 	background:#f9f9f9;
    font-family: proxima;
-   height: 2000px;
 }
 #myCarousel img{
    margin:auto;
+   width: 100%;
 }
 
 .container{
@@ -40,9 +40,10 @@ h3{
    margin-left: 20px;
 }
 .step{
-   height: 400px;
+
    border-bottom: 1px solid #E6E6E6;
    margin: 0;
+   padding-top:40px;
 }
 .carousel{
    margin: 0;
@@ -63,18 +64,22 @@ div.toRight .content h1 {
 /* Autores */
 
 .imagenAutor img{
+   margin: auto;
+   display: block;
    border-radius: 75px;
+   overflow: hidden;
 }
-
-div.autor{
-   width: 400px;
-   height: 60px;
-   padding: 20px;
+.autores{
+   overflow: auto;
+}
+.autor{
+   width: 32%;
    float: left;
    display: block;
-   margin-left: 20px;
+   overflow: hidden;
 }
 .textoAutor{
+   text-align: center;
    font-size: 2em;
    margin: 20px;
 }
