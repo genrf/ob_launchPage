@@ -91,6 +91,36 @@ div.toRight .content h1 {
    color: black;
    margin: 20px;
 }
+.contacto{
+   font-size: 2em;
+   display: block;
+   width: 50%;
+   height: 100%;
+   margin: auto;
+   margin-bottom: 80px;
+}
+.contacto h1{
+   margin-bottom: 60px;
+   text-align: center;
+}
+.contacto p{
+   margin-bottom: 20px;
+}
+.correo{
+   color: #0088CC;
+}
+/* Pie */
+.footer{
+   height: 120px;
+   box-shadow: 0 10px 10px black inset;
+   background: #383838; 
+}
+.footer p{
+   color: white;
+   font-size: 30px;   
+   text-align: center;
+   line-height: 100px;
+}
 /* Estilos botones */
 .carousel-control{
    background: none;
